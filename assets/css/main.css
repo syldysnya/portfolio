@@ -1711,6 +1711,14 @@ button:disabled,
   opacity: 0.25;
 }
 
+input[type="submit"].topbtn,
+input[type="reset"].topbtn,
+input[type="button"].topbtn,
+button.topbtn,
+.button.topbtn {
+  margin-bottom: .5em;
+}
+
 @media screen and (max-width: 736px) {
   input[type="submit"],
   input[type="reset"],

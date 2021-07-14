@@ -55,6 +55,10 @@
 			opacity: 0.25;
 		}
 
+		&.topbtn {
+			margin-bottom: .5em;
+		}
+
 		@include breakpoint('<=small') {
 			min-width: 0;
 		}
