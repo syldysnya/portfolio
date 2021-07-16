@@ -14,7 +14,7 @@
 	body, input, select, textarea {
 		font-family: _font(family);
 		font-size: 17pt;
-		font-weight: _font(weight);
+		font-weight: 500;
 		line-height: 1.65;
 
 		@include breakpoint('<=xlarge') {
